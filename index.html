@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" conatent="one, two, three">
+
+		<title>Desi's Spin Reel</title>
+
+		<!-- Font -->
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Elite&family=Titan+One&display=swap" rel="stylesheet">
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<!--spin reel stuff should go in here -->
+		<section>
+			<h1>Detective Desi's Slot Machine</h1>
+			<p>Starting Balance: $100</p> 
+
+			<!-- For the reels -->
+			<div id="reels"> 
+				<span id="reelOne"></span>
+				<span id="reelTwo"></span>
+				<span id="reelThree"></span>
+				<!-- <span id="reelFour"></span>
+				<span id="reelFive"></span>
+				<span id="reelSix"></span> -->
+			</div>
+
+			<!-- We need a place for the Players bet-->
+			 <label for="userBetInput">Bet Made: </label>
+			 <input type="number" id="userBetInput" min="5" max="50">
+			 <button id="userSpinsReelButton" type="button">Spin to Play</button>
+
+
+			<!-- How does the gane communicate its status with the player?-->
+
+				<div id="gameMessageToUserContainer">
+			 	<p id="gameMessageToUser"></p> 
+				<p id="userBalance">Balance: $100</p> 
+				</div>
+				<div id="case-file-instructions">
+    			<p>Mystery objective: You arrived at the manor to solve a simple mystery. Now there is a murderous suspect in the room behind you. You must escape to survive. Your survival relies on luck & dollars to match a 3-letter sequence to unlock the Escape door. 
+				
+				The door comes with a starting balance of $100. Let's hope you brought cash.</p>
+</div>
+		</section> 
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
+
+<!-- My slot machine needs the following: 
+		a title
+		a display for the balance
+		an input for the Players bet 
+		A button to spin the reel 
+		a way to tell the Player if they won or lost
+-->
