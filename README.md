@@ -23,7 +23,7 @@ I feel good about my code: 4
 I'm not sure if my constructors are setup cleanly...
 ```
 
-Result: 
+My Slot Machine: 
 
 <img width="1512" height="862" alt="murder-mystery-slot-machine" src="https://github.com/user-attachments/assets/09fe3d24-3f05-4fdd-aba9-88d2d100333c" />
 
