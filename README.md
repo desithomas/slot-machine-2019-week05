@@ -13,6 +13,12 @@ An interactive, escape-room-styled slot machine basic web application. This proj
 * **CSS3:** Custom styling, flexbox layouts, and keyframe animations for the spinning reel mechanics and atmospheric theming.
 * **JavaScript (ES6+):** Vanilla JS handling the DOM manipulation, event listeners, and the randomized math logic driving the slot machine's win/loss conditions.
 
+
+## View on website: 
+
+https://murdermysteryslotmachine.netlify.app/
+
+
 ##  How to Run Locally
 
 Because this is a vanilla front-end application, no build tools or package managers are required.
