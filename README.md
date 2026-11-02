@@ -1,7 +1,6 @@
 
 My Slot Machine: 
 
-<img width="1512" height="862" alt="murder-mystery-slot-machine" src="https://github.com/user-attachments/assets/09fe3d24-3f05-4fdd-aba9-88d2d100333c" />
 
 #  Murder Mystery Slot Machine
 
@@ -13,6 +12,7 @@ An interactive, escape-room-styled slot machine basic web application. This proj
 * **CSS3:** Custom styling, flexbox layouts, and keyframe animations for the spinning reel mechanics and atmospheric theming.
 * **JavaScript (ES6+):** Vanilla JS handling the DOM manipulation, event listeners, and the randomized math logic driving the slot machine's win/loss conditions.
 
+<img width="1512" height="862" alt="murder-mystery-slot-machine" src="https://github.com/user-attachments/assets/09fe3d24-3f05-4fdd-aba9-88d2d100333c" />
 
 ## View on website: 
 
